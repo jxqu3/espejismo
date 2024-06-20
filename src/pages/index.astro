@@ -1,0 +1,103 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
+import NavBar from "../components/NavBar.astro";
+---
+
+<Layout title="Welcome to Astro.">
+    <main>
+       <NavBar/>
+        <div class="head">
+            <h1 id="maintitle">Espejismo</h1>
+            <h3>Periódico digital del Alfonso XI</h3>
+        </div>
+        <div class="bo">
+            <h2>Secciones:</h2>
+            <ul>
+                <li><a href="secciones/musica">Música</a></li>
+                <li><a href="secciones/cine">Cine</a></li>
+                <li><a href="secciones/magia">Magia</a></li>
+                <li><a href="secciones/ciencia">Ciencia</a></li>
+                <li><a href="secciones/literatura">Literatura</a></li>
+                <li><a href="secciones/pasatiempos">Pasatiempos</a></li>
+            </ul>
+        </div>
+        <Footer/>
+    </main>
+</Layout>
+
+<style>
+    body {
+        margin: 0%;
+        padding: 0%;
+        color: #eee;
+        overflow-x: hidden;
+        background-color: #222;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin: 20px;
+    }
+    h2 {
+        font-size: 2rem;
+        margin: 10px;
+    }
+    h3 {
+        font-size: 0.8rem;
+        margin: 10px;
+        color: #aaa;
+        font-family: monospace;
+    }
+
+    .bo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .head {
+        width: 100vw;
+        margin-top: 20px;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    ul {
+        display: block;
+        font-size: 1.5rem;
+        align-items: center;
+        text-align: center;
+        list-style: none;
+    }
+
+    li {
+        transition: 0.2s ease-in-out;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    
+    a {
+        font-family: monospace;
+        font-size: 1rem;
+        cursor: pointer;
+        color: #eee;
+        text-decoration: none;
+    }
+
+
+</style>

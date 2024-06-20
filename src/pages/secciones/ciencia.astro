@@ -1,0 +1,8 @@
+---
+import Seccion from "../../layouts/Seccion.astro";
+const articulos = await Astro.glob('../ciencia/*.md');
+---
+
+<Seccion title="Ciencia?">
+    {articulos.map(post => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+</Seccion>

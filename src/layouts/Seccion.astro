@@ -1,0 +1,107 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+import NavBar from '../components/NavBar.astro';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title> 
+	</head>
+	<body>
+        <NavBar/>
+        <div class="head">
+            <h1 id="maintitle">{title}</h1>
+            <h3>Periódico digital del Alfonso XI</h3>
+        </div>
+        <div class="bo">
+            <h2>[Articulos]</h2>
+            <ul>
+                <slot/>
+            </ul>
+        </div>
+	</body>
+</html>
+
+<style is:global>
+     body {
+        margin: 0%;
+        padding: 0%;
+        color: #eee;
+        overflow-x: hidden;
+        background-color: #222;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        font-size: 4rem;
+        margin: 20px;
+    }
+    h2 {
+        font-size: 2rem;
+        margin: 10px;
+    }
+    h3 {
+        font-size: 0.8rem;
+        margin: 10px;
+        color: #aaa;
+        font-family: monospace;
+    }
+
+    .bo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        display: block;
+        font-size: 1.5rem;
+        align-items: center;
+        text-align: center;
+        list-style: none;
+    }
+
+    li {
+        transition: 0.2s ease-in-out;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    
+    a {
+        font-family: monospace;
+        font-size: 1rem;
+        cursor: pointer;
+        color: #eee;
+        text-decoration: none;
+    }
+    
+    .head {
+        width: 100vw;
+        margin-top: 20px;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
