@@ -3,6 +3,8 @@ title: Ordenadores cuánticos, qué son, qué solucionan, y qué problemas traen
 layout: ../../layouts/Articulo.astro
 ---
 
+### Gerardo Jiménez Lizana
+
 ## Los ordenadores cuánticos son una tecnología que está emergiendo y se está popularizando. Pueden ser muy útiles, o destruir toda la seguridad informática tal y cómo la conocemos.
 
 
