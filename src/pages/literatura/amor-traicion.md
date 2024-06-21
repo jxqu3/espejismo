@@ -118,7 +118,7 @@ quien casaría y quitaría del medio a los pocos meses, pero se quedaría
 con el reino de Standton, un reino conocido por sus grandes fuentes de
 oro y minas de joyas.
 
-![](xcpbcda5.png)
+![](/xcpbcda5.png)
 
 A la semana del incendio en Standton, Antonyo mandó una tropa buscar
 minuciosamente al rey Carlos y a su familia y fusilarlos trayéndole sus
@@ -150,7 +150,7 @@ Pero con ellos iban una serie de espías que estuvieron revisando los
 informes de los soldados y vieron que el Stuart había nacido en Standton
 por
 
-![](puuoe0wn.png)
+![](/puuoe0wn.png)
 
 lo que temían que había gato encerrado en todo esto así que sin levantar
 sospecha alguna siguieron las indicaciones que le daba Stuart y en el

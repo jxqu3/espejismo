@@ -19,6 +19,8 @@ from all major lists of acclaimed scientists. Despite his brilliance and eccentr
 anything to create a cure for the pandemical wave that the Germans were planning, just to be
 recognised worldwide as the best doctor that he undoubtedly was.
 
+![](/czbrqszs.png)
+
 That wasn’t acceptable for the Nazis since they wouldn’t let
 anyone bombard their brilliant plan so they sent a German spy,
 a woman that is, to enter the French border to kill him. Soon
@@ -44,6 +46,8 @@ seeing how this recent laboratory assistant flirted with him,
 made her irritated.
 One evening, after a long day of hard work, Ulrike invited Pierre for a drink in her office.
 She had opened a bottle of wine and offered a glass to her boss.
+
+![](/xph4jfxz.png)
 
 \- “So, tell, me monsieur Delmas, isn't it a little stressful at times when you work
 day and night on the same thing and maybe take a lifetime to discover something new?”
@@ -74,6 +78,8 @@ poured a flammable substance all over the place. She got a pointy letter opener 
 wrist veins letting her swim in a pool of her own blood. She covered the body with a white sheet
 and got out of there before setting the place on fire.
 
+![](/nbbqsm1c.png)
+
 That night, two of Pierre's butlers, told their boss that
 they had seen Ulrike stuff something wrapped in a white
 sheet in her car and was on her way to the old silk factory.
@@ -98,6 +104,8 @@ After many years, Ulrike was found dead in her house in Berlin and his son had b
 kidnapped.  
 That day, the great scientist Pierre, who had eventually found a cure for the virus, had
 disappeared.
+
+![](/epqoex4h.png)
 
 Pierre was arrested in Berlin carrying Ulrike's child
 and was charged with murder and kidnapping. He
