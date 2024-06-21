@@ -35,4 +35,25 @@
         position: absolute;
         right: 20px;
     } 
+
+    @media only screen and (max-width: 600px) {
+       .right {
+           display: none;
+       }
+
+       .middle {
+        width: fit-content;
+        left: unset;
+        transform: unset;
+        word-wrap: none;
+        word-break: normal;
+        position: absolute;
+        right: 20px;
+       }
+
+       footer span {
+           font-size: 0.8rem;
+       }
+    }
+
 </style>

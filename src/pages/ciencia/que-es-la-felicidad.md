@@ -3,7 +3,7 @@ title: ¿Qué es la felicidad?
 layout: ../../layouts/Articulo.astro
 ---
 
-### Xxxx Xxxxxxx Xxxxx
+### Lucía Carrillo González
 Seguro que alguna vez te has preguntado lo que es la felicidad, pero la verdad es que es
 bastante difícil de definir. Sin embargo, lo que tenemos claro es que todos tratamos de
 buscarla. Como ya sabemos, el cerebro regula nuestro funcionamiento, pero lo más curioso

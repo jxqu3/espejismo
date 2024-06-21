@@ -5,7 +5,7 @@ layout: ../../layouts/Articulo.astro
 
 ## Gustos Musicales
 
-### Andrea López & Julia Montañés.
+### Ariadna Víboras Pérez & Celia Rosales Carrillo
 
 El Erasmus es uno de los eventos más importantes y populares del IES Alfonso XI.
 Algunos alumnos y uno de los profesores que han participado en él han concedido una
