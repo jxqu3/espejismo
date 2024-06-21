@@ -1,33 +1,31 @@
 ---
-const {frontmatter} = Astro.props;
+const { frontmatter } = Astro.props;
 import NavBar from "../components/NavBar.astro";
 import Footer from "../components/Footer.astro";
 ---
 
-
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{frontmatter.title}</title> 
-	</head>
-	<body>
-        <NavBar/>
-        <div class="bo">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Astro description" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{frontmatter.title}</title>
+    </head>
+    <body>
+        <NavBar />
+        <div class="art">
             <h1>{frontmatter.title}</h1>
             <slot />
         </div>
-        <Footer/>
-
-	</body>
+        <Footer />
+    </body>
 </html>
 
 <style is:global>
-     body {
+    body {
         margin: 0%;
         padding: 0%;
         color: #eee;
@@ -38,10 +36,10 @@ import Footer from "../components/Footer.astro";
 
     p {
         font-size: 1.2rem;
-        margin: 10px;
-        margin-bottom: 20px;
+        margin: 15px 20px;
+        text-align: justify;
     }
-    
+
     pre {
         padding: 20px;
         border-radius: 10px;
@@ -50,23 +48,50 @@ import Footer from "../components/Footer.astro";
         word-break: break-all !important;
         word-wrap: break-word !important;
         overflow: hidden !important;
-        margin-bottom: 10px;
+        height: min-content;
+        margin: 10px 30px;
     }
-    
+
     code * {
         font-size: 1rem;
         overflow: hidden;
         word-wrap: break-word !important;
         word-break: break-all !important;
         font-family: monospace;
-     }
+        height: fit-content;
+    }
+
+    code .line {
+        display: block;
+        width: 100%;
+        height: min-content;
+    }
+
+    code > .line > span {
+        display: block;
+        width: 100% !important;
+        word-break: break-all !important;
+        height: min-content;
+        white-space: pre-wrap !important;
+    }
 
     * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
+
+    img {
+        width: 60%;
+        margin-left: 20%;
+        height: auto;
+    }
+
+    .art a {
+        color: aqua;
+    }
     
+
     h1 {
         font-size: 4rem;
         margin: 20px;
@@ -82,11 +107,21 @@ import Footer from "../components/Footer.astro";
         font-family: monospace;
     }
 
-    .bo {
+    .art {
         margin: 60px;
         margin-top: 100px;
         display: flex;
         flex-direction: column;
     }
-
+    @media only screen and (max-width: 600px) {
+        img {
+            width: 100%;
+            margin-left: 0%;
+            height: auto;
+        }
+        h1 {
+            margin-right: 50px;
+            font-size: 3rem;
+        }
+    }
 </style>

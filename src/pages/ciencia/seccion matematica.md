@@ -21,7 +21,7 @@ Las primeras apariciones del número pi se datan en el 1900 a.C cuando
 los babios lo escribieron en unas tablillas de madera. Después aparece en
 el papiro Rhind, un documento egipcio del año 1650 a.C. Tras esto aparece
 diversas veces cada vez aproximándose más a lo que hoy en día
-conocemos hasta que el astrónomo chino Zu Chongzhi consigue averiguar
+conocemos hasta que el astrónomo chino *Zu Chongzhi* consigue averiguar
 35 decimales. Ya para el siglo XX había avanzado hasta conocerse 527
 decimales.
 
@@ -40,7 +40,7 @@ parecido al 0 que conocemos para indicar la posición de los números. El
 cero fue inventado tal cual lo conocemos en la India como resultado de
 sustraerle a un número su mismo. La palabra cero proviene del sanscrito
 cuyo significado es vacío.
-La primera aparición escrita del cero fue en el año 605 d.C. Brahmagupta,
+La **primera** aparición escrita del cero fue en el año 605 d.C. Brahmagupta,
 un matemático indio, años después, fue el primero en tratar al cero como
 un número y no como un marcador de posición. Seguidamente, este
 definió sus propiedades.

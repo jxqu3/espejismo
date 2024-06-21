@@ -28,6 +28,8 @@ User=iKtTTBx0RzBYHOoyrKi89QBlNQ7RgnWCx6z89dPGNOqmkBFoK2JP8AeK0FHWxm8lRhi2TFxCbzB
 Password=NBMW65AzZZzKLJ2qsfSJVYxZBz/WtljmN9vKIQmGys/IrbDPzUNMtxbZB0NS66sO9OJD5lYF67Or1FPM6gHZCRWYA0xvOUBowJRZVqETVInLJ9Cp7V8AgllkXBiJJ04df3lIrvyGkzUn8NgrfqCrnXrPd74B0fXA1oNSthfl+p8=
 ```
 
+Este texto no se puede entender gracias a que está encriptado, lo que hace que no se pueda saber lo que pone sin una clave de desencriptación.  
+
 Los mecanismos de encriptación más utilizados actualmente se basan en tres problemas matemáticos muy complicados de resolver, tan complicados, que se basa su forma de funcionar en que un superordenador digital tardaría incluso millones de años en resolverlos. El problema viene porque un ordenador cuántico suficientemente grande podría resolver estos problemas fácilmente usando el algoritmo de Shor, u otras alternativas. Esto supondría la posibilidad de descifrar muchos de estos mecanismos de encriptación, lo que permitiría a atacantes u otros delincuentes apoderarse de cosas como tus contraseñas, tus cuentas bancarias, entre otros.
 
 Afortunadamente, ya se han creado nuevos algoritmos conocidos como “quantum-safe” que son resistentes a los ordenadores cuánticos, pero las webs que no se actualicen seguirán vulnerables hasta que lo hagan.
