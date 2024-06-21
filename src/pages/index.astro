@@ -8,11 +8,11 @@ import NavBar from "../components/NavBar.astro";
 <Layout title="Espejismo">
     <main>
         <NavBar />
-        <div class="head">
+        <div id="head" class="head">
             <h1 id="maintitle">Espejismo</h1>
             <h3>Periódico digital del Alfonso XI</h3>
         </div>
-        <div class="bo">
+        <div id="bod" class="bo">
             <h2>[Secciones]</h2>
             <ul>
                 <li><a href="secciones/musica">Música</a></li>
@@ -31,14 +31,19 @@ import NavBar from "../components/NavBar.astro";
     const ORIGINAL = "Espejismo";
     const title = document.getElementById("maintitle");
     const body = document.getElementsByTagName("body")[0];
+    const bod = document.getElementById("bod");
+    const head = document.getElementById("head");
+    
     let changing = false;
-    if (title) {
+    if (title && bod && head) {
         let text = ORIGINAL.split("");
 
         title.addEventListener("mouseover", () => {
             changing = true;
             body.style.backgroundColor = "black";
             title.classList.add("shaking");
+            bod.classList.add("bodyshake");
+            head.classList.add("bodyshake");
 
             const interval = setInterval(() => {
                 if (changing) {
@@ -59,8 +64,11 @@ import NavBar from "../components/NavBar.astro";
         title.addEventListener("mouseout", () => {
             changing = false;
             title.innerHTML = ORIGINAL;
-            body.style.backgroundColor = "#222";
+            body.style.backgroundColor = "#111";
             title.classList.remove("shaking");
+            bod.classList.remove("bodyshake");
+            head.classList.remove("bodyshake");
+
         });
     }
 </script>
@@ -71,7 +79,7 @@ import NavBar from "../components/NavBar.astro";
         padding: 0%;
         color: #eee;
         overflow-x: hidden;
-        background-color: #222;
+        background-color: #111;
         font-family: "Times New Roman", Times, serif;
     }
 
@@ -115,12 +123,16 @@ import NavBar from "../components/NavBar.astro";
     }
 
     .shaking {
+        font-family: monospace;
+        color: #0f0;
+        font-weight: normal !important;
+    }
+
+    .bodyshake {
         animation: shake 0.1s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
         transform: translate3d(0, 0, 0);
         backface-visibility: hidden;
         perspective: 1000px;
-        font-family: monospace;
-        color: #0f0;
     }
 
     .bo {
